@@ -5,12 +5,14 @@ spring:
     username: postgres
     password: postgres
   mail:
-    host: smtp.gmail.com
-    port: 587
-    username: on99.matsunaga.dai@gmail.com
-    password: rlbfppgjhxfsaymf
-    properties.mail.smtp.auth: true
-    properties.mail.smtp.starttls.enable: true
+#    host: smtp.gmail.com
+#    port: 587
+#    username: ec.202110c@gmail.com
+#    password: test&ec202110c
+#    properties.mail.smtp.auth: true
+#    properties.mail.smtp.starttls.enable: true
+    host: localhost
+    port: 1025
 server:
   servlet:
     context-path: /ec-202110c

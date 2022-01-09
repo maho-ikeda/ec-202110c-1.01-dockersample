@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  mailhog:
+    image: mailhog/mailhog:latest
+    container_name: mailhog2
+    ports:
+      - 8027:8027
+      - 25:1025
