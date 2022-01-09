@@ -11,6 +11,7 @@ spring:
 #    password: test&ec202110c
 #    properties.mail.smtp.auth: true
 #    properties.mail.smtp.starttls.enable: true
+    #### dockerのmailhogを使う際は以下 ####
     host: localhost
     port: 1025
 server:
